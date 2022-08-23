@@ -34,6 +34,11 @@ exports.main = async (context = {}, sendResponse) => {
             format: "markdown",
             text: `**Author**: ${data[0].a}`
           }
+          {
+            type: "text",
+            format: "markdown",
+            text: `**Branch**: This is a master branch build`
+          }
         ]
       },
       {
